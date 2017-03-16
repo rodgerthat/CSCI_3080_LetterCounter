@@ -21,6 +21,16 @@ int main()
 		cout << currentLetter << " : " << x[i] << endl;
 	}
 
+	cout << "Wouldst thou likest to sorteth thine characters? y / n : " << endl;
+
+	c = cin.get();
+
+	if (c == 'y') {
+	
+	}
+
+	cout << "peace out. ";
+
     return 0;
 }
 
