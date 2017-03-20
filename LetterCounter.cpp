@@ -10,7 +10,7 @@ int main()
 	int i;
 	char c;
 
-	cout << "start typing. hit enter to get results";
+	cout << "start typing. hit enter to get results" << endl;
 	while ((c = cin.get()) != '\n') {
 
 		++x[c - 'a'];
@@ -29,7 +29,8 @@ int main()
 	
 	}
 
-	cout << "peace out. ";
+    cout << "Note to self, add sorting algorithm" << endl;
+	cout << "peace out. " << endl;
 
     return 0;
 }
